@@ -1,0 +1,18 @@
+{
+  "name": "Flowdock App",
+  "description": "Flowdock is a team collaboration app",
+  "version": "1.0",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": {
+    "16": "icon-16.png",
+    "128": "icon-128.png"
+  },
+  "permissions": [
+    "webview"
+  ]
+}
